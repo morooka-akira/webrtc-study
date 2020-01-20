@@ -1,0 +1,10 @@
+var localVideo = document.getElementById('local_video');
+var remoteVideo = document.getElementById('remote_video');
+var textForSendSdp = document.getElementById('text_for_send_sdp');
+var textToReceiveSdp = document.getElementById('text_for_receive_sdp');
+var localStream = null;
+var peerConnection = null;
+var negotiationneededCounter = 0;
+var isOffer = false;
+console.log(localVideo);
+console.log(remoteVideo);
