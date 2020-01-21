@@ -1,8 +1,8 @@
 var MEDIA_CONFIG = { video: true, audio: true };
 /**
- * カメラ操作を開始する
+ * webカメラと音声をVideoタグにセットする
  */
-function startVideo(video) {
+function setupLocalVideo(video) {
     navigator.mediaDevices
         .getUserMedia(MEDIA_CONFIG)
         .then(function (stream) {
@@ -11,10 +11,13 @@ function startVideo(video) {
         console.log('An error occured! ' + err);
     });
 }
+/**
+ * 初期セットアップ
+ */
 function setup() {
     var localVideo = document.getElementById('local_video');
     var btnLocalVideo = document.getElementById('btn-start-local-video');
-    startVideo(localVideo);
+    setupLocalVideo(localVideo);
     btnLocalVideo.addEventListener('click', function (ev) {
         console.log('click start button');
         localVideo.play();

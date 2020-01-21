@@ -19,19 +19,8 @@ function setupLocalVideo(video) {
  */
 function setup() {
   const localVideo = document.getElementById('local_video')
-  const btnLocalVideo = document.getElementById('btn-start-local-video')
-
+  // start video capture
   setupLocalVideo(localVideo)
-
-  btnLocalVideo.addEventListener(
-    'click',
-    function(ev) {
-      console.log('click start button')
-      ;(localVideo as HTMLVideoElement).play()
-      ev.preventDefault()
-    },
-    false
-  )
 }
 
 setup()
