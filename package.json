@@ -5,7 +5,7 @@
   "author": "inon29",
   "license": "MIT",
   "scripts": {
-    "build": "tsc index.ts",
+    "build": "tsc -p ./tsconfig.json",
     "start": "yarn run build && http-server -S -C localhost.pem -K localhost-key.pem"
   },
   "devDependencies": {
