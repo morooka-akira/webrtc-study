@@ -5,13 +5,13 @@
 ### ① build
 
 ```bash
-tsc index.ts
+yarn build
 ```
 
 ### ② start local server
 
 ```bash
-http-server -S -C localhost.pem -K localhost-key.pem
+yarn start
 ```
 
 ※ see install local server
