@@ -1,4 +1,4 @@
-# webrtc study
+# webrtc study client
 
 ## setup
 

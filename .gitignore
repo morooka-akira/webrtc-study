@@ -11,3 +11,8 @@ node_modules/
 ### production build
 build
 dist
+index.js
+
+### local cert&key
+localhost-key.pem
+localhost.pem
