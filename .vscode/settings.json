@@ -1,5 +1,4 @@
 {
-  "editor.formatOnSave": false,
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -7,5 +6,7 @@
   "files.exclude": {
     "**/*.map": true,
     "**/node_modules": true
-  }
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
 }

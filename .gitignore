@@ -12,6 +12,7 @@ node_modules/
 build
 dist
 index.js
+signaling.js
 
 ### local cert&key
 localhost-key.pem
