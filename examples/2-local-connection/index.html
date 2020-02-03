@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WebRTC Study</title>
+</head>
+
+<body>
+    <div>
+        <!-- 接続元の動画と音声を表示するためのVideoタグ -->
+        <video id="local-video" autoplay muted style="width: 160px; height: 120px; border: 1px solid black;"></video>
+    </div>
+
+    <div>
+        <!-- 接続先の動画と音声を表示するためのVideoタグ -->
+        <video id="remote-video" autoplay style="width: 160px; height: 120px; border: 1px solid black;"></video>
+    </div>
+
+    <!-- 接続を開始するためのボタン -->
+    <button id="btn-connect">connect</button>
+
+    <script type='text/javascript' src='./index.js'></script>
+</body>
+
+</html>
