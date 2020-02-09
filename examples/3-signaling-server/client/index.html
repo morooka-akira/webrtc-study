@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>WebRTC Study</title>
+</head>
+
+<body>
+    <div>
+        <!-- NOTE: 自分の端末のストリームを表示する -->
+        <video id="local-video" autoplay muted style="width: 160px; height: 120px; border: 1px solid black;"></video>
+    </div>
+
+    <div>
+        <!-- NOTE: 相手端末から送られてきたストリームを表示する -->
+        <video id="remote-video" autoplay muted style="width: 160px; height: 120px; border: 1px solid black;"></video>
+    </div>
+
+    <button id="btn-setup">① setup</button>
+    <button id="btn-send-offer">② send offer</button>
+    <button id="btn-hang-up">③ hangup</button>
+
+    <script type='text/javascript' src='./index.js'></script>
+</body>
+
+</html>
