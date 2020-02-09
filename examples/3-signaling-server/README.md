@@ -1,6 +1,6 @@
 # webrtc study
 
-[③ シグナリングサーバを使ってP2Pを接続する](https://inon29.hateblo.jp/entry/2020/02/03/221103)
+[③ シグナリングサーバを使ってP2Pを接続する](https://inon29.hateblo.jp/entry/2020/02/09/124406)
 
 ## 事前準備(基本的にMacを想定)
 
@@ -59,8 +59,8 @@ cd server
 yarn start
 ```
 
-- 1. [https://localhost:8080](https://localhost:8080)をブラウザで開く(peer1)
-- 2. `① setup` ボタンを押下
-- 3. [https://localhost:8080](https://localhost:8080)をブラウザの別ダブで開く(peer2)
-- 4. `① setup` ボタンを押下
-- 5. どちらかの画面で `② send offer` ボタンを押下
+- 1.[https://localhost:8080](https://localhost:8080)をブラウザで開く(peer1)
+- 2.`① setup` ボタンを押下
+- 3.[https://localhost:8080](https://localhost:8080)をブラウザの別ダブで開く(peer2)
+- 4.`① setup` ボタンを押下
+- 5.どちらかの画面で `② send offer` ボタンを押下
